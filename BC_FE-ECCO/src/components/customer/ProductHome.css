@@ -1,0 +1,50 @@
+.Producthome{
+    height: 100%;
+    margin-bottom: 95px;
+    padding: 15px;
+}
+
+.Producthome:hover{
+    box-shadow: 0 3px 12px 0 rgb(0 0 0 / 30%);
+}
+
+.Producthome:hover .btn-hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.badge-tagx {
+    width: 25%;
+    height: 25%;
+}
+
+.btn-hover{
+    border: 1px solid #000;
+    height: 3.2em;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    color: #000;
+    position: relative;
+    text-transform: uppercase;
+    margin: 0 auto;
+    line-height: 3.2;
+    width: 70%;
+    
+}
+
+.btn-hover a{
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-hover{
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.btn-hover:hover{
+    background-color: gainsboro;
+}
+
